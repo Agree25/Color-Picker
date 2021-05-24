@@ -30,7 +30,7 @@ while True:
     r = cv2.getTrackbarPos("R","Color Picker")
     g = cv2.getTrackbarPos("G","Color Picker")
     b = cv2.getTrackbarPos("B","Color Picker")
-    
+    #RGB
     if s==0:
         img[:] = 0
     else:
